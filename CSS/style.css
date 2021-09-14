@@ -1,0 +1,66 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.produto {
+    
+    display: inline-block;
+    vertical-align: top;
+    font-family: Verdana, sans-serif;
+    border: solid 1px #ccc;
+    box-shadow:  0 4px 20px 0 rgba(0, 0, 0, 0.3);
+    height: 300px;
+    width: 260px;
+    margin:  20px;
+    padding: 5px;
+}
+.produto:hover{
+    transform: translateY(-2px);
+    transition-delay: 51ms;
+    cursor: pointer;
+}
+.produto img{
+    width: 100%;
+    max-height: 50%;
+}
+.produto-info{
+    padding:10px;
+    height: 90px;
+    overflow: hidden;
+
+}
+.produto-info h4{
+    font-size: 1.4em;
+    font-weight: 100;
+    margin: 0px;
+}
+.produto-preco{
+    float: right;
+    padding: 10px;
+
+}
+.preco-de{
+    text-decoration: line-through;
+    color: firebrick;
+}
+.preco-por{
+    color: green;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+.product-brand{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(194, 214, 238);
+    width:100%;
+    text-align: center;
+    border: solid 1px #ccc;
+    box-shadow:  0 4px 20px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    color: rgb(49, 50, 56);
+    margin: 20px;
+    
+}
+ 
